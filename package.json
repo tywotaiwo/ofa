@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon/nodemon.js src/app.js -e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "joi": "^10.6.0",
+    "jsonwebtoken": "^8.0.0",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.18.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "sequelize": "^4.8.0",
+    "sqlite3": "^4.0.2"
+  }
+}
